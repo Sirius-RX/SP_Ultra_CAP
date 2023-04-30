@@ -27,50 +27,94 @@
 ### 文件目录
 
 │  LICENSE
+
 │  README.md
+
 │  文件目录.txt
+
 │  生成文件目录.bat
+
 │  
+
 ├─Doc
+
 │      README.md
+
 │      代码控制框图.drawio.html
+
 │      设计电源拓扑.drawio.html
+
 │      超级电容控制板技术报告 .docx
+
 │      
+
 ├─HARDWARE
+
 │  │  README.md
+
 │  │  
+
 │  ├─CAP_Group
+
 │  │      CAP_Group.PcbDoc
+
 │  │      CAP_Group.pdf
+
 │  │      CAP_Group.PrjPcb
+
 │  │      CAP_Group.SchDoc
+
 │  │      
+
 │  ├─CAP_Group-images
+
 │  │      0001.jpg
+
 │  │      0002.jpg
+
 │  │      0003.jpg
+
 │  │      
+
 │  ├─Ultra_CAP-images
+
 │  │      0001.jpg
+
 │  │      0002.jpg
+
 │  │      0003.jpg
+
 │  │      0004.jpg
+
 │  │      
+
 │  └─Ultra_CAP_Ctrl
+
 │          Digital.SchDoc
-│          Power.SchDoc
+
+│          Power.SchDo
+
 │          Ultra_CAP.PcbDoc
+
 │          Ultra_CAP.pdf
+
 │          Ultra_CAP.PrjPcb
+
 │          
+
 ├─MATLAB
+
 │      buck_boost.slx
+
 │      buck_boost_mix.slx
+
 │      README.md
+
 │      
+
 └─SOFTWARE
-        README.md
+
+​        README.md
 
 ### 简介
 
