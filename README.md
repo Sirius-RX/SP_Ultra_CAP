@@ -7,6 +7,7 @@
 - [目录](#目录)
 - [项目所属：河北工业大学\_山海Mas战队	Sirius\_P](#项目所属河北工业大学_山海mas战队sirius_p)
 - [最后更新时间：2023.4.29](#最后更新时间2023429)
+- [每个文件夹下面都有独立的readme，用以解释目录内容](#每个文件夹下面都有独立的readme，用以解释目录内容)
 - [文件目录](#文件目录)
 - [简介](#简介)
     - [测试视频：【Robomaster超级电容功能展示（默剧）（最高集成度\&较低成本）】](#测试视频robomaster超级电容功能展示默剧最高集成度较低成本)
@@ -22,113 +23,25 @@
 
 ​	我们是于2022年成立，2023年第一次参赛的新战队，还请各位大佬们多多指教。
 
-### 最后更新时间：2023.4.30
+### 最后更新时间：2023.5.1
 
 2023.4.29	初始化工程，上传了HARDWARE内容和MATLAB内容，初步完成主页面readme；
 
 2023.4.30	更新了部分设计报告内容（要死了，天天做工）；
 
-2023.5.1	更新Doc中readme，更新设计报告内容，上传了框图源文件；
+2023.5.1	更新Doc中readme，更新SOFTWARE中readme，更新HARDWARE中readme，更新设计报告内容，上传了框图源文件；
+
+### 每个文件夹下面都有独立的readme，用以解释目录内容
 
 ### 文件目录
 
-**目录有可能更新的不是很完全，文件目录.txt是最新的，而且不会有格式问题**
-
-│  LICENSE
-
-│  README.md
-
-│  文件目录.txt
-
-│  生成文件目录.bat
-
-│  
-
-├─Doc
-
-│      README.md
-
-│      代码控制框图.drawio.html
-
-│      设计电源拓扑.drawio.html
-
-│      超级电容控制板技术报告 .docx
-
-│      
-
-├─HARDWARE
-
-│  │  README.md
-
-│  │  
-
-│  ├─CAP_Group
-
-│  │      CAP_Group.PcbDoc
-
-│  │      CAP_Group.pdf
-
-│  │      CAP_Group.PrjPcb
-
-│  │      CAP_Group.SchDoc
-
-│  │      
-
-│  ├─CAP_Group-images
-
-│  │      0001.jpg
-
-│  │      0002.jpg
-
-│  │      0003.jpg
-
-│  │      
-
-│  ├─Ultra_CAP-images
-
-│  │      0001.jpg
-
-│  │      0002.jpg
-
-│  │      0003.jpg
-
-│  │      0004.jpg
-
-│  │      
-
-│  └─Ultra_CAP_Ctrl
-
-│          Digital.SchDoc
-
-│          Power.SchDo
-
-│          Ultra_CAP.PcbDoc
-
-│          Ultra_CAP.pdf
-
-│          Ultra_CAP.PrjPcb
-
-│          
-
-├─MATLAB
-
-│      buck_boost.slx
-
-│      buck_boost_mix.slx
-
-│      README.md
-
-│      
-
-└─SOFTWARE
-
-​        README.md
+**请移步文件目录.txt**
 
 ### 简介
 
 ##### 	测试视频：[【Robomaster超级电容功能展示（默剧）（最高集成度&较低成本）】](https://www.bilibili.com/video/BV1DM4y127du/?share_source=copy_web&vd_source=c66b5cf402383e929f3b27696605cd3c) 
 
-​	该项目用作于Robomaster电容管理，使用单板在7.62cm* 7.62cm*2.5cm（高度主要是有个EC11旋钮有点小高）的超小体积下实现了集成度较高的双向buckboost控制。
+​	该项目用作于Robomaster电容管理，使用单板在7.62cm* 7.62cm*2.5cm（高度主要是有个EC11旋钮有点小高）的超小体积下实现了集成度较高的双向buckboost控制，系统的响应频率高达200kHz。
 
 ##### 	外设一览：
 
@@ -174,11 +87,9 @@
 
 ### 软件框图
 
-**使用drawio绘制，HTML请移步Doc文件夹**
+**使用drawio绘制，HTML（高清矢量图）请移步Doc文件夹**
 
 软件框图是当时给自己提供代码功能设计思路用的，实际实现的方式可能与框图中有些不一样（PS：因为框图是写代码之间先画的，所以肯定会和实现差比较多，因为我是懒狗就还没更新，等后续有时间了再更新一下）
 
 ![](https://raw.githubusercontent.com/Sirius-RX/blogimg/main/img/代码控制框图.png)
-
-### 
 

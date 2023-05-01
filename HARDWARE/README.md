@@ -18,6 +18,8 @@ Altium Designer23.4.1
 
 这个不用我多说吧，大家本职应该都是搞硬件的，看就完了，具体的设计说明请移步主目录中的Doc文件夹中的技术报告。
 
+如果有什么设计上的疑问的话可以先看看Doc文件夹的设计报告，想要技术交流的话可以通过issue或者通过邮件的方式联系1716194438@qq.com。
+
 ![](https://raw.githubusercontent.com/Sirius-RX/blogimg/main/img/OIP.bmp)
 
 附图分别为两个工程的原理图&Layout图

@@ -7,11 +7,29 @@ D:.
 │  生成文件目录.bat
 │  
 ├─Doc
-│      README.md
-│      代码控制框图.drawio.html
-│      设计电源拓扑.drawio.html
-│      超级电容控制板技术报告 .docx
-│      
+│  │  HRPWM master timer快速中断流程图.drawio.html
+│  │  README.md
+│  │  TIM2_5mS中断流程图.drawio.html
+│  │  代码控制框图.drawio.html
+│  │  数据通路.drawio.html
+│  │  设计电源拓扑.drawio.html
+│  │  超级电容控制板技术报告.pdf
+│  │  
+│  ├─drawio源文件
+│  │      HRPWM master timer快速中断流程图.drawio
+│  │      TIM2_5mS中断流程图.drawio
+│  │      代码控制框图.drawio
+│  │      数据通路.drawio
+│  │      设计电源拓扑.drawio
+│  │      
+│  └─STMG474相关数据手册
+│          How to get the best ADC accuracy.pdf
+│          HRTIM_cookbook.pdf
+│          rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+│          STM32 器件上的 FDCAN 外设.pdf
+│          STM32G4 ADC use tips and recommendations_DM00625282_ENV2.pdf
+│          stm32g474re.pdf
+│          
 ├─HARDWARE
 │  │  README.md
 │  │  
