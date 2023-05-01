@@ -81,7 +81,7 @@
 
 ### 硬件框图
 
-**使用drawio绘制，HTML请移步Doc文件夹**
+**使用drawio绘制，HTML（高清矢量图）请移步Doc文件夹**
 
 ![](https://raw.githubusercontent.com/Sirius-RX/blogimg/main/img/设计电源拓扑.png)
 
