@@ -1,0 +1,17 @@
+RM := rm -rf
+BRIDGE_EXE := studio-mdk-bridge.exe
+UV4_EXE := "D:\Keil_v5\UV4\UV4.exe"
+UVPROJX_LOC := "D:\RT-ThreadStudio\workspace\Ultra_CAP\MDK-ARM\Ultra_CAP.uvprojx"
+
+.PHONY: mdk_all
+
+mdk_all:
+	-$(BRIDGE_EXE) --build --uv4-path $(UV4_EXE) $(UVPROJX_LOC)
+
+mdk_clean:
+	-@$(RM) *
+	@echo 'success'
+
+
+
+*.elf: $(wildcard ..)

@@ -29,7 +29,7 @@
 
 2023.4.30	更新了部分设计报告内容（要死了，天天做工）；
 
-2023.5.1	更新Doc中readme，更新SOFTWARE中readme，更新HARDWARE中readme，更新设计报告内容，上传了框图源文件；
+2023.5.1	更新Doc中readme，更新SOFTWARE中readme，更新HARDWARE中readme，更新设计报告内容，上传了框图源文件，上传源代码；
 
 ### 每个文件夹下面都有独立的readme，用以解释目录内容
 

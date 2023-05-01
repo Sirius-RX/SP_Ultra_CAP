@@ -63,5 +63,6 @@ D:.
 │      README.md
 │      
 └─SOFTWARE
+	  该目录内容过多故省略，请移步文件夹内的文件目录.txt文件查	  看
         README.md
         
