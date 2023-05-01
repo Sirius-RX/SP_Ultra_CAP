@@ -1,0 +1,205 @@
+<mxfile host="Electron" modified="2023-04-29T03:01:49.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="IiypZREerM4fZQwoGp_c" version="21.2.1" type="device">
+  <diagram id="StXW9vDBuZxnw6pbQAzU" name="第 1 页">
+    <mxGraphModel dx="2261" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-1" value="底盘输出&lt;br&gt;无刷电机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="83.75" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-2" value="电源输入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="98" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-3" target="HsdgBNmCGdod0hYB6Wyy-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-3" target="HsdgBNmCGdod0hYB6Wyy-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-3" target="HsdgBNmCGdod0hYB6Wyy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IocPLUXvyem-Fw9VzLDi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-3" target="IocPLUXvyem-Fw9VzLDi-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-3" value="输入检流电阻&lt;br&gt;阻值：1mΩ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="84" y="520" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-2" target="HsdgBNmCGdod0hYB6Wyy-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-27" y="590" as="sourcePoint" />
+            <mxPoint x="23" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-6" value="电流感应放大器&lt;br&gt;NCS210R&lt;br&gt;运算放大器（电压采集）&lt;br&gt;NCS20061" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-207" y="510" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-8" target="Sncp47ntZ2pjKv9O994a-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-8" value="理想二极管控制器&lt;br&gt;LM5050MK&lt;br&gt;控制MOSFET&amp;nbsp;AP80N04Q" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="45.75" y="650" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-11" target="HsdgBNmCGdod0hYB6Wyy-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-11" value="肖特基二极管&lt;br&gt;PSBD1DF40V2L" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="303" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rnap97VTkotBTkQl8X7j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-15" target="Rnap97VTkotBTkQl8X7j-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-15" target="cnatVIFwkTdjKcwfvOBO-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="800" />
+              <mxPoint x="243" y="1090" />
+              <mxPoint x="33" y="1090" />
+            </Array>
+            <mxPoint x="40" y="1090.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-15" value="Buck降压电路&lt;br&gt;AP63357&lt;br&gt;5V输出" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="291" y="770" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-20" value="3V3输出&lt;br&gt;STM32G474&lt;br&gt;有源晶振&lt;br&gt;CAN电平转换芯片&lt;br&gt;人机交互设备&lt;br&gt;等" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="297.25" y="1035.5" width="131.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-41" target="HsdgBNmCGdod0hYB6Wyy-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-41" value="输入检流电阻&lt;br&gt;阻值：1mΩ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-400.25" y="768.75" width="116.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-43" value="电流感应放大器&lt;br&gt;NCS210R &lt;br&gt;因为没有参考电压提供，无法测量反向电流&lt;br&gt;运算放大器（电压采集）&lt;br&gt;NCS20061" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="757.5" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-62" value="法拉电容组&lt;br&gt;标称能量不能超过2000J，实测能量不能超过2200J&lt;br&gt;使用超级电容充电保护芯片BW6101&lt;br&gt;使用保护芯片扩流MOS&amp;nbsp;AP80N04Q" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-494.38" y="898.75" width="304.75" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-64" value="电容充电管理&lt;br&gt;使用两个半桥电路构成H桥管理电容充放电，双向buck-boost电路&lt;br&gt;使用两个半桥驱动芯片ADP3110A&lt;br&gt;H桥使用MOSFET&amp;nbsp;HYG025N06LS1C2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="640" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HsdgBNmCGdod0hYB6Wyy-70" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-64" target="Sncp47ntZ2pjKv9O994a-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-27" y="279.5" as="sourcePoint" />
+            <mxPoint x="3" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RK-K-sY3bWobj8l1c8g-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-41" target="HsdgBNmCGdod0hYB6Wyy-64" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-684.75" y="542" as="sourcePoint" />
+            <mxPoint x="-557" y="389.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-4" value="&lt;h1&gt;MCU相关&lt;/h1&gt;&lt;p&gt;MCU使用STM32G474RE6&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;LQFP-64封装&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;使用MCU控制H桥调控，打算运用RTT操作系统，可以有着命令行的交互，在后续制作图形GUI的时候也会更加方便&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;实现难点在于代码的实现上，然后硬件设计上需要综合考量&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="20" width="460" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-64" target="llnPX9CH5Lpl61UZmSh3-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="814.5" as="sourcePoint" />
+            <mxPoint x="-530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="llnPX9CH5Lpl61UZmSh3-4" target="HsdgBNmCGdod0hYB6Wyy-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="260" as="sourcePoint" />
+            <mxPoint x="-180" y="724.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llnPX9CH5Lpl61UZmSh3-4" target="HsdgBNmCGdod0hYB6Wyy-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-706.25" y="279.9999999999998" as="sourcePoint" />
+            <mxPoint x="-600" y="699.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="llnPX9CH5Lpl61UZmSh3-4" target="HsdgBNmCGdod0hYB6Wyy-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="220" as="sourcePoint" />
+            <mxPoint x="-80" y="989.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llnPX9CH5Lpl61UZmSh3-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="llnPX9CH5Lpl61UZmSh3-4" target="HsdgBNmCGdod0hYB6Wyy-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="754.5" as="sourcePoint" />
+            <mxPoint x="80" y="704.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rnap97VTkotBTkQl8X7j-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;html=1;" parent="1" source="Rnap97VTkotBTkQl8X7j-4" target="HsdgBNmCGdod0hYB6Wyy-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rnap97VTkotBTkQl8X7j-4" value="&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;LD39050PU33R&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;3V3输出&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;CAN电平转换芯片&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="910" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rnap97VTkotBTkQl8X7j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Rnap97VTkotBTkQl8X7j-4" target="Rnap97VTkotBTkQl8X7j-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBxiULB07EWCwNgqGVIt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cnatVIFwkTdjKcwfvOBO-1" target="HsdgBNmCGdod0hYB6Wyy-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-84" y="1074.375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBxiULB07EWCwNgqGVIt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cnatVIFwkTdjKcwfvOBO-1" target="HsdgBNmCGdod0hYB6Wyy-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-625" y="1108" />
+            </Array>
+            <mxPoint x="-84" y="1106.625" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cnatVIFwkTdjKcwfvOBO-1" target="Sncp47ntZ2pjKv9O994a-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-22" y="1058.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xAHL7pUq0PRHy24seZFt-4" value="&lt;h1&gt;情况列举&lt;/h1&gt;&lt;div&gt;&lt;b&gt;工作状态可能：&lt;/b&gt;&lt;/div&gt;&lt;p&gt;1.底盘输出空载，电源输入有功率富余，给电容充电&lt;/p&gt;&lt;p&gt;2.底盘输出功率较小，有较小的功率富余，使用多余的功率富余给电容充电&lt;/p&gt;&lt;p&gt;2.底盘输出满载，电源输入不够提供多余的底盘功率，从电容中抽取&lt;/p&gt;&lt;p&gt;&lt;b&gt;判断状态的方式：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1.底盘输出空载可以通过电源输入下一级的功率采集电路进行判断，不同的功率上线需要通过与裁判系统或者与其它单片机节点进行通讯获取&lt;/p&gt;&lt;p&gt;2.底盘输出满载是需要通过前提状态来判断的，不管什么情况都无法判断底盘是否是处于正常的满载状态，是需要整个系统的状态来进行模式的变换&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;比方说：当我检测到底盘的电机不在旋转时，我预测此时电源输入肯定是空载状态，此时给电容进行&lt;b&gt;恒流恒压&lt;/b&gt;充电；&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 当我检测到底盘的电机需要旋转时，我降低此时电容需要抽取的功率，在满足电机能达到目标速度的前提下给电容充电&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;问题：怎么实现在满足电机能达到目标速度的前提下给电容充电？&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;什么时候触发功率补偿？是否可以使用某一个按键手动触发？&lt;/span&gt;&lt;/p&gt;&lt;p&gt;电容充电的功率与电机输出的功率在第二个工作状态存在竞争关系，如何合理的调控电机输出的功率大小和电容充电的功率大小是一个问题&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-16" y="20" width="843" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sncp47ntZ2pjKv9O994a-2" target="Sncp47ntZ2pjKv9O994a-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-2" value="Buck降压电路&lt;br&gt;AP63357&lt;br&gt;12V输出" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="473" y="770" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Sncp47ntZ2pjKv9O994a-5" target="HsdgBNmCGdod0hYB6Wyy-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Sncp47ntZ2pjKv9O994a-5" target="Sncp47ntZ2pjKv9O994a-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-5" value="输入检流电阻&lt;br&gt;阻值：1mΩ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85.5" y="770" width="116.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-9" value="电流感应放大器&lt;br&gt;NCS210R" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-77" y="771.25" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llnPX9CH5Lpl61UZmSh3-4" target="Sncp47ntZ2pjKv9O994a-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="370" as="sourcePoint" />
+            <mxPoint x="-110" y="505.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sncp47ntZ2pjKv9O994a-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;半桥驱动芯片ADP3110A&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="466.5" y="920" width="157" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IocPLUXvyem-Fw9VzLDi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IocPLUXvyem-Fw9VzLDi-1" target="Sncp47ntZ2pjKv9O994a-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IocPLUXvyem-Fw9VzLDi-1" value="肖特基二极管&lt;br&gt;PSBD1DF40V2L" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIZzk32WbIgFvwXCH7_U-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="HsdgBNmCGdod0hYB6Wyy-62" target="HsdgBNmCGdod0hYB6Wyy-41" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-480" y="900" as="sourcePoint" />
+            <mxPoint x="-430" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnatVIFwkTdjKcwfvOBO-1" value="NCP51460基准电压源&lt;br&gt;3V3输出&lt;br&gt;单片机REF电压" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88.5" y="1056" width="133" height="69" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

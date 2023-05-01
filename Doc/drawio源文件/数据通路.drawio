@@ -1,0 +1,288 @@
+<mxfile host="Electron" modified="2023-04-30T13:47:20.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="qzBmSIgcrpHd7hoQ-3pp" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="Ni2nSBSFRpxHNJtiDKMm">
+    <mxGraphModel dx="1182" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="93LWt0kpYNxQ6og8wggM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-1" target="93LWt0kpYNxQ6og8wggM-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-58" value="硬件低通滤波" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-7" vertex="1" connectable="0">
+          <mxGeometry x="0.25" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-1" value="输入电流采样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-2" target="93LWt0kpYNxQ6og8wggM-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-59" value="硬件低通滤波" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.3198" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-2" value="输入电压采样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-3" target="93LWt0kpYNxQ6og8wggM-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-62" value="硬件低通滤波" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.6991" y="-3" relative="1" as="geometry">
+            <mxPoint x="28" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-3" value="底盘电流采样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-4" target="93LWt0kpYNxQ6og8wggM-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-61" value="硬件低通滤波" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.3026" y="-1" relative="1" as="geometry">
+            <mxPoint x="12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-4" value="电容电压采样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-5" target="93LWt0kpYNxQ6og8wggM-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-60" value="硬件低通滤波" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.2853" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-5" value="电容电流采样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-6" target="93LWt0kpYNxQ6og8wggM-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-6" value="OPAMP&lt;br&gt;High Speed Mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-9" target="93LWt0kpYNxQ6og8wggM-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-9" value="OPAMP&lt;br&gt;High Speed Mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-10" target="93LWt0kpYNxQ6og8wggM-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-10" value="OPAMP&lt;br&gt;High Speed Mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-11" target="93LWt0kpYNxQ6og8wggM-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-11" value="OPAMP&lt;br&gt;High Speed Mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-12" target="93LWt0kpYNxQ6og8wggM-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-12" value="OPAMP&lt;br&gt;High Speed Mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-18" target="gZHigdhdaMU4NLSSqz6P-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="213.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-30" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.2407" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-18" value="12bit ADC采样&lt;br&gt;400kHz 无过采样" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-20" target="93LWt0kpYNxQ6og8wggM-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-20" value="12bit ADC采样&lt;br&gt;200kHz 32x过采样&lt;br&gt;结果右移5位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-22" target="93LWt0kpYNxQ6og8wggM-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-22" value="12bit ADC采样&lt;br&gt;200kHz 4x过采样&lt;br&gt;结果右移2位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-24" target="93LWt0kpYNxQ6og8wggM-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-24" value="12bit ADC采样&lt;br&gt;200kHz 32x过采样&lt;br&gt;结果右移5位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-25" target="93LWt0kpYNxQ6og8wggM-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-25" value="12bit ADC采样&lt;br&gt;200kHz 4x过采样&lt;br&gt;结果右移2位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gZHigdhdaMU4NLSSqz6P-1" target="93LWt0kpYNxQ6og8wggM-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="213.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-41" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-40" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-31" value="使用ADC过采样并右移是为了均值滤波&lt;br&gt;这样可以利用外设的资源完成等效低通滤波，节省CPU算力" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="895" y="274" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-33" value="使用ADC过采样并右移是为了均值滤波&lt;br&gt;这样可以利用外设的资源完成等效低通滤波，节省CPU算力" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="895" y="368" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-34" value="使用ADC过采样并右移是为了均值滤波&lt;br&gt;这样可以利用外设的资源完成等效低通滤波，节省CPU算力" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="895" y="474" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-35" value="使用ADC过采样并右移是为了均值滤波&lt;br&gt;这样可以利用外设的资源完成等效低通滤波，节省CPU算力" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="895" y="574" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-39" target="93LWt0kpYNxQ6og8wggM-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-39" target="93LWt0kpYNxQ6og8wggM-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-39" value="采样值换算&lt;br&gt;换算结果为实际电气值&lt;br&gt;数据格式为fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="174" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-42" target="93LWt0kpYNxQ6og8wggM-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-42" target="93LWt0kpYNxQ6og8wggM-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-42" value="采样值换算&lt;br&gt;换算结果为实际电气值&lt;br&gt;数据格式为fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="274" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-44" target="93LWt0kpYNxQ6og8wggM-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-44" value="采样值换算&lt;br&gt;换算结果为实际电气值&lt;br&gt;数据格式为fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="368" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-45" target="93LWt0kpYNxQ6og8wggM-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-45" value="采样值换算&lt;br&gt;换算结果为实际电气值&lt;br&gt;数据格式为fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="574" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-46" target="93LWt0kpYNxQ6og8wggM-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-46" target="93LWt0kpYNxQ6og8wggM-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-46" value="采样值换算&lt;br&gt;换算结果为实际电气值&lt;br&gt;数据格式为fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="474" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-31" target="93LWt0kpYNxQ6og8wggM-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="224" as="sourcePoint" />
+            <mxPoint x="1140" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-51" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-50" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-35" target="93LWt0kpYNxQ6og8wggM-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="324" as="sourcePoint" />
+            <mxPoint x="1100" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-53" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-52" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-34" target="93LWt0kpYNxQ6og8wggM-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="334" as="sourcePoint" />
+            <mxPoint x="1150" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-55" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-54" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-33" target="93LWt0kpYNxQ6og8wggM-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="344" as="sourcePoint" />
+            <mxPoint x="1160" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-57" value="DMA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="93LWt0kpYNxQ6og8wggM-56" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-65" target="93LWt0kpYNxQ6og8wggM-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-65" value="某种计算公式&lt;br&gt;输出电流计算" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-66" target="93LWt0kpYNxQ6og8wggM-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-66" value="输出电流环&lt;br&gt;输出为占空比&lt;br&gt;格式fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-67" target="93LWt0kpYNxQ6og8wggM-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-67" value="输入电流&lt;br&gt;数据选择" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-68" target="93LWt0kpYNxQ6og8wggM-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-68" value="两个输入相乘&lt;br&gt;作为输入&lt;br&gt;输入功率环" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="93LWt0kpYNxQ6og8wggM-91" target="93LWt0kpYNxQ6og8wggM-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-91" value="输出电压环&lt;br&gt;输出为占空比&lt;br&gt;格式fp32" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="93LWt0kpYNxQ6og8wggM-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="408" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1970" y="408" />
+              <mxPoint x="1970" y="408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-95" value="最小值&lt;br&gt;Min" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93LWt0kpYNxQ6og8wggM-100" value="框图中所有的PID框图&lt;br&gt;除了输出电流环的目标值是&lt;br&gt;功率环的输出值&lt;br&gt;剩余的两个PID计算中的&lt;br&gt;目标值均被省略" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="474" width="170" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="gZHigdhdaMU4NLSSqz6P-1" value="FMAC外设&lt;br&gt;一阶IIR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZHigdhdaMU4NLSSqz6P-2" value="HRPWM占空比数据&lt;br&gt;格式fp32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

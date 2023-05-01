@@ -1,0 +1,89 @@
+<mxfile host="Electron" modified="2023-05-01T01:44:53.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="X_K7qDRSYrS4tG5V7_KO" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="bUVNhaD18xi7TSbCuFVl">
+    <mxGraphModel dx="1195" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XRjycu--op4102eXjmvJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-1" target="XRjycu--op4102eXjmvJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-1" value="IPSShowCnt++&lt;br&gt;IPS刷新计数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-2" target="XRjycu--op4102eXjmvJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-2" value="5mS中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="291" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-4" target="XRjycu--op4102eXjmvJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-4" value="ShortOff()&lt;br&gt;短路保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-6" target="XRjycu--op4102eXjmvJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-6" value="SwOCP()&lt;br&gt;输出过流保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-8" target="XRjycu--op4102eXjmvJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-8" value="VoutSwOVP()&lt;br&gt;输出过压保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-10" target="XRjycu--op4102eXjmvJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-10" value="VinSwUVP()&lt;br&gt;输入欠压保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="744.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-12" target="XRjycu--op4102eXjmvJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="417" y="870" />
+              <mxPoint x="417" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-12" value="VinSwOVP()&lt;br&gt;输入过压保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-14" target="XRjycu--op4102eXjmvJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-14" value="StateM()&lt;br&gt;电源状态机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-16" target="XRjycu--op4102eXjmvJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-16" value="KEYFlag()&lt;br&gt;按键检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-18" target="XRjycu--op4102eXjmvJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-18" value="DRMode()&lt;br&gt;电源电流方向判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-20" target="XRjycu--op4102eXjmvJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-20" value="BBMode()&lt;br&gt;电源工作模式判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XRjycu--op4102eXjmvJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506.66666666666674" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRjycu--op4102eXjmvJ-22" value="LEDShow()&lt;br&gt;RGB状态显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="744.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
