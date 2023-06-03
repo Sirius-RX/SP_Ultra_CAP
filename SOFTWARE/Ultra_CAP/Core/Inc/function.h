@@ -26,16 +26,16 @@ void BBMode(void);
 void DRMode(void);
 
 /*****************************故障类型*****************/
-#define     F_NOERR      		0x0000//无故障
+#define     F_NOERR      			0x0000//无故障
 #define     F_SW_VIN_UVP  		0x0001//输入欠压
 #define     F_SW_VIN_OVP    	0x0002//输入过压
 #define     F_SW_VOUT_UVP  		0x0004//输出欠压
 #define     F_SW_VOUT_OVP    	0x0008//输出过压
 #define     F_SW_IOUT_OCP    	0x0010//输出过流
-#define     F_SW_SHORT  		0x0020//输出短路
+#define     F_SW_SHORT  			0x0020//输出短路
 
 #define MAX_BUCK_DUTY   (uint16_t)(0.95 * HRTIMB_Period)    //buck最大占空比95%
-#define MIN_BUCK_DUTY	(uint16_t)(0.05 * HRTIMB_Period)    //buck最小占空比5%
+#define MIN_BUCK_DUTY		(uint16_t)(0.05 * HRTIMB_Period)    //buck最小占空比5%
 #define	MAX_BUCK_DUTY1  (uint16_t)(0.75 * HRTIMB_Period)    //MIX state buck最大占空比80%
 #define MAX_BOOST_DUTY  (uint16_t)(0.50 * HRTIMA_Period)    //boost最大占空比40%
 #define MIN_BOOST_DUTY  (uint16_t)(0.05 * HRTIMA_Period)    //boost最小占空比5%

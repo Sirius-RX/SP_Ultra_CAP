@@ -4,12 +4,12 @@
 #include "hrtim.h"
 #include "PID.h"
 
-#define Beep 1
-#define Switch 0
-#define tarvoltage 23.0f
-#define tarpower 60.0f
+#define Beep 				1
+#define Switch 			0
+#define tarvoltage 	23.0f
+#define tarpower 		60.0f
 //CtrValue.Voref = 23.0f;
-//CtrValue.Poref = 100.0f;
+//CtrValue.Poref = 60.0f;
 
 struct _Ctr_value CtrValue = { 0.0f, 0.0f, 0.0f, MIN_BUCK_DUTY, 0, 0, 0 }; //控制参数
 struct _FLAG DF = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }; //控制标志位
@@ -557,7 +557,7 @@ void VoutSwOVP(void)
  ** ===================================================================
  */
 #define MIN_UVP_VAL    20.0f//20V欠压保护
-#define MIN_UVP_VAL_RE 21.5f//21.5V欠压保护恢复
+#define MIN_UVP_VAL_RE 21.0f//21.5V欠压保护恢复
 void VinSwUVP(void)
 {
     //过压保护判据保持计数器定义

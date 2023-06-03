@@ -214,16 +214,17 @@ void TIM2_IRQHandler(void)
   HAL_TIM_IRQHandler(&htim2);
   /* USER CODE BEGIN TIM2_IRQn 1 */
     IPSShowCnt++;
-    ShortOff();
-    SwOCP();
+		VinSwUVP();
     VoutSwOVP();
-    VinSwUVP();
+		ShortOff();
+    SwOCP();
     VinSwOVP();
     StateM();
     KEYFlag();
-    DRMode();
     BBMode();
     LEDShow();
+	
+//    DRMode();
   /* USER CODE END TIM2_IRQn 1 */
 }
 

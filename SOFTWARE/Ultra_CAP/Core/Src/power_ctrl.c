@@ -68,7 +68,7 @@ void power_init(void)
     c_chassis.offset = 0;
 
 #define PARA_CAL_ENABLE (1) //elec_calibration: 0 -> disable; 1 -> enable
-#define board_num (3)       //board series num
+#define board_num (2)       //board series num
 #define LPF_ENABLE (0)      //low pass filter: 0 -> disable; 1 -> enable
 
 #if PARA_CAL_ENABLE == 1
@@ -181,7 +181,7 @@ CCMRAM void ADCSample(void)
     /*calculate cap current*/
     capIcalc = (in.V / cap.V) * full_bridge_in.I * 1.1f;
 
-    if (capIcalc >= 1.0f)
+    if (capIcalc >= 0.5f)
     {
         cap.I = c_cap.value_elec;
     }
@@ -241,7 +241,7 @@ CCMRAM void BuckBoostVLoopCtlPID(void)
         {
             PID_init(&voltageout_loop, 0.03f, 200.0f / 200000.0f, 8e-06f * 200000.0f, 0.95, 1, 0.05, -1);   //buck voltage loop
             PID_init(&currentout_loop, 0.007f, 64.0f / 200000.0f, 8.7e-07f * 200000.0f, 0.95, 1, 0.05, -1); //buck current loop
-            PID_init(&powerin_loop, 0.01f, 35.0f / 200000.0f, 4e-06f * 200000.0f, 12, 12, -12, -12);        //buck power loop
+            PID_init(&powerin_loop, 0.009f, 35.0f / 200000.0f, 4e-06f * 200000.0f, 12, 12, -12, -12);       //buck power loop
             HRTIM_DMA_Buffer[3] = (uint16_t) (0.96 * HRTIMA_Period);
             DF.BBModeChange = 0;
         }
