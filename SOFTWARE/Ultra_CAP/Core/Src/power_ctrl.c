@@ -68,7 +68,7 @@ void power_init(void)
     c_chassis.offset = 0;
 
 #define PARA_CAL_ENABLE (1) //elec_calibration: 0 -> disable; 1 -> enable
-#define board_num (2)       //board series num
+#define board_num (4)       //board series num
 #define LPF_ENABLE (0)      //low pass filter: 0 -> disable; 1 -> enable
 
 #if PARA_CAL_ENABLE == 1
@@ -83,12 +83,12 @@ void power_init(void)
     ADC_Linear_calibration_init(&c_cap, 1.012f, 1.33f, 7.99f, 10.32f);
     ADC_Linear_calibration_init(&c_chassis, 1.0f, 1.45f, 7.99f, 10.95f);
 #endif
-#if board_num == 3 //have to finish
+#if board_num == 3 //finished
     ADC_Linear_calibration_init(&c_in, 1.006f, 1.535165f, 8.004f, 12.16f);
     ADC_Linear_calibration_init(&c_cap, 1.0f, 1.35f, 7.99f, 10.25f);
     ADC_Linear_calibration_init(&c_chassis, 1.0f, 1.4f, 7.99f, 10.77f);
 #endif
-#if board_num == 4 //have to finish
+#if board_num == 4 //finished
     ADC_Linear_calibration_init(&c_in, 1.006f, 1.482784f, 8.006f, 11.95f);
     ADC_Linear_calibration_init(&c_cap, 1.0f, 1.34f, 7.99f, 10.14f);
     ADC_Linear_calibration_init(&c_chassis, 1.0f, 1.39f, 7.99f, 10.71f);
@@ -172,10 +172,10 @@ CCMRAM void ADCSample(void)
 #else
     in.V = v_in.value_elec;
     in.I = c_in.value_elec;
-
     in.P = in.V * in.I;
 
     full_bridge_in.I = c_in.value_elec - c_chassis.value_elec;
+
     cap.V = v_cap.value_elec;
 
     /*calculate cap current*/
@@ -189,7 +189,10 @@ CCMRAM void ADCSample(void)
     {
         cap.I = capIcalc;
     }
-    cap.P = cap.V * cap.I;
+
+//    full_bridge_in.V = in.V;
+//    full_bridge_in.P = full_bridge_in.V * full_bridge_in.I;
+//    cap.P = cap.V * cap.I;
 #endif
 }
 
@@ -250,8 +253,8 @@ CCMRAM void BuckBoostVLoopCtlPID(void)
         PID_calc(&voltageout_loop, cap.V, CtrValue.Voref);
         PID_calc(&powerin_loop, in.P, CtrValue.Poref);
         PID_calc(&currentout_loop, cap.I, powerin_loop.out);
-        /*PID select*/
 
+        /*PID select*/
         if (currentout_loop.out < voltageout_loop.out)
         {
             pid_final = currentout_loop.out;
@@ -276,15 +279,16 @@ CCMRAM void BuckBoostVLoopCtlPID(void)
         CtrValue.BoostDuty = MIN_REG_VALUE; //BOOST duty fixed PWM 0.95
 
         /*max out & min out restrict*/
+        CtrValue.BuckMinDuty = cap.V / (in.V + 2.5f) * HRTIMB_Period;
         //soft start related
         if (CtrValue.BuckDuty > CtrValue.BuckMaxDuty)
         {
             CtrValue.BuckDuty = CtrValue.BuckMaxDuty;
         }
         //avoiding a voltage spike
-        if (CtrValue.BuckDuty < (cap.V / 33.0f * HRTIMB_Period))
+        if (CtrValue.BuckDuty < CtrValue.BuckMinDuty)
         {
-            CtrValue.BuckDuty = cap.V / 33.0f * HRTIMB_Period;
+            CtrValue.BuckDuty = CtrValue.BuckMinDuty;
         }
         break;
     }
@@ -303,8 +307,8 @@ CCMRAM void BuckBoostVLoopCtlPID(void)
         PID_calc(&voltageout_loop, cap.V, CtrValue.Voref);
         PID_calc(&powerin_loop, in.P, CtrValue.Poref);
         PID_calc(&currentout_loop, cap.I, powerin_loop.out);
-        /*PID select*/
 
+        /*PID select*/
         if (currentout_loop.out < voltageout_loop.out)
         {
             pid_final = currentout_loop.out;
@@ -329,17 +333,23 @@ CCMRAM void BuckBoostVLoopCtlPID(void)
         CtrValue.BuckDuty = MAX_BUCK_DUTY1; //buck duty fix 0.75
 
         /*max out & min out restrict*/
+        CtrValue.BoostMinDuty = (1.0f - 0.75f * (in.V + 2.5f) / cap.V) * HRTIMA_Period;
         //when topology changes, need to give a initial status
         if (DF.BBModeChange)
         {
             //soft change
-            CtrValue.BoostDuty = (1.003f - 0.8f * in.V / cap.V) * HRTIMA_Period;
+            CtrValue.BoostDuty = (1.01f - 0.75f * in.V / cap.V) * HRTIMA_Period;
             DF.BBModeChange = 0;
         }
         //soft start related
         if (CtrValue.BoostDuty > CtrValue.BoostMaxDuty)
         {
             CtrValue.BoostDuty = CtrValue.BoostMaxDuty;
+        }
+        //avoiding a voltage spike
+        if (CtrValue.BoostDuty < CtrValue.BoostMinDuty)
+        {
+            CtrValue.BoostDuty = CtrValue.BoostMinDuty;
         }
         break;
     }

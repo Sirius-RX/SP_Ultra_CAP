@@ -4,12 +4,12 @@
 #include "hrtim.h"
 #include "PID.h"
 
-#define Beep 				1
-#define Switch 			0
+#define Beep 			1
+#define Switch 			1
 #define tarvoltage 	23.0f
-#define tarpower 		60.0f
+#define tarpower 	30.0f
 //CtrValue.Voref = 23.0f;
-//CtrValue.Poref = 60.0f;
+//CtrValue.Poref = 50.0f;
 
 struct _Ctr_value CtrValue = { 0.0f, 0.0f, 0.0f, MIN_BUCK_DUTY, 0, 0, 0 }; //控制参数
 struct _FLAG DF = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }; //控制标志位
@@ -18,6 +18,7 @@ struct _FLAG DF = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }; //控制标志位
 SState_M STState = SSInit;
 //IPS刷新计数 5mS计数一次，在5mS中断里累加
 uint16_t IPSShowCnt = 0;
+uint16_t CANSendCnt = 0;
 
 /** ===================================================================
  **     Function Name :void StateM(void)
@@ -377,8 +378,8 @@ void ValInit(void)
 //shortage voltage judgment
 void ShortOff(void)
 {
-    static int32_t RSCnt = 0;
-    static uint8_t RSNum = 0;
+    static uint16_t RSCnt = 0;
+    static uint16_t RSNum = 0;
 
     //当output current大于 15A，且output voltage小于0.2V时，可判定为发生短路保护
     //when output current is larger than 11A and output voltage less than 0.2V,
@@ -524,8 +525,9 @@ void VoutSwOVP(void)
 {
     //过压保护判据保持计数器定义
     static uint16_t OVPCnt = 0;
+    //故障清楚保持计数器定义
 
-    //当output voltage大于25V，且保持100ms
+    //当output voltage大于24V，且保持10ms
     if (cap.V > MAX_VOUT_OVP_VAL)
     {
         //条件保持计时
@@ -557,14 +559,14 @@ void VoutSwOVP(void)
  ** ===================================================================
  */
 #define MIN_UVP_VAL    20.0f//20V欠压保护
-#define MIN_UVP_VAL_RE 21.0f//21.5V欠压保护恢复
+#define MIN_UVP_VAL_RE 21.0f//21.0V欠压保护恢复
 void VinSwUVP(void)
 {
     //过压保护判据保持计数器定义
     static uint16_t UVPCnt = 0;
     static uint16_t RSCnt = 0;
 
-    //当input voltage小于20V，且保持200ms
+    //当input voltage小于20V，且保持10ms
     if ((in.V < MIN_UVP_VAL) && (DF.SMFlag != Init) && (!DF.BBModeChange))
     {
         //条件保持计时
@@ -625,7 +627,7 @@ void VinSwOVP(void)
     //过压保护判据保持计数器定义
     static uint16_t OVPCnt = 0;
 
-    //当input voltage大于30V，且保持100ms
+    //当input voltage大于28V，且保持100ms
     if (in.V > MAX_VIN_OVP_VAL)
     {
         //条件保持计时
@@ -747,7 +749,7 @@ void KEYFlag(void)
         DF.SMFlag = Wait;
         //关闭PWM
         DF.PWMENFlag = 0;
-        HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TB1); //关闭
+        HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TB1);            //关闭
     }
 #endif
 }

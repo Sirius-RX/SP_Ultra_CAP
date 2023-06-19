@@ -1,9 +1,9 @@
 Dependencies for Project 'Ultra_CAP', Target 'Ultra_CAP': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
 F (./startup_stm32g474xx.s)(0x647A8FDD)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32G474xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g474xx.lst --xref -o ./.rtt-studio/debug\startup_stm32g474xx.o --depend ./.rtt-studio/debug\startup_stm32g474xx.d)
-F (../Core/Src/power_ctrl.c)(0x647A95FD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\power_ctrl.o --omf_browse ./.rtt-studio/debug\power_ctrl.crf --depend ./.rtt-studio/debug\power_ctrl.d)
+F (../Core/Src/power_ctrl.c)(0x647C427E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\power_ctrl.o --omf_browse ./.rtt-studio/debug\power_ctrl.crf --depend ./.rtt-studio/debug\power_ctrl.d)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -51,7 +51,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
-I (../Core/Inc/function.h)(0x647A904D)
+I (../Core/Inc/function.h)(0x647D4BD1)
 I (../Core/Inc/pid.h)(0x647A8FDB)
 I (../Core/Inc/filter.h)(0x647A8FDB)
 I (../Core/Inc/IIR_FIlter.h)(0x647A8FDB)
@@ -101,7 +101,7 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x647A8FDC)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/SEEKFREE_IPS114_SPI.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\seekfree_ips114_spi.o --omf_browse ./.rtt-studio/debug\seekfree_ips114_spi.crf --depend ./.rtt-studio/debug\seekfree_ips114_spi.d)
 I (../Core/Inc/SEEKFREE_IPS114_SPI.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -153,7 +153,7 @@ I (../Core/Inc/SEEKFREE_FONT.h)(0x647A8FDB)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
 F (../Core/Src/pid.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\pid.o --omf_browse ./.rtt-studio/debug\pid.crf --depend ./.rtt-studio/debug\pid.d)
 I (../Core/Inc/pid.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -203,7 +203,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/filter.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\filter.o --omf_browse ./.rtt-studio/debug\filter.crf --depend ./.rtt-studio/debug\filter.d)
 I (../Core/Inc/filter.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -251,9 +251,9 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
-F (../Core/Src/CAN_receive.c)(0x647A9D87)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\can_receive.o --omf_browse ./.rtt-studio/debug\can_receive.crf --depend ./.rtt-studio/debug\can_receive.d)
+F (../Core/Src/CAN_receive.c)(0x64901163)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\can_receive.o --omf_browse ./.rtt-studio/debug\can_receive.crf --depend ./.rtt-studio/debug\can_receive.d)
 I (../Core/Inc/CAN_receive.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -301,11 +301,11 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
-I (../Core/Inc/function.h)(0x647A904D)
+I (../Core/Inc/function.h)(0x647D4BD1)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
-F (../Core/Src/function.c)(0x647A9180)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\function.o --omf_browse ./.rtt-studio/debug\function.crf --depend ./.rtt-studio/debug\function.d)
-I (../Core/Inc/function.h)(0x647A904D)
-I (../Core/Inc/main.h)(0x647A8FDB)
+F (../Core/Src/function.c)(0x649011C1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\function.o --omf_browse ./.rtt-studio/debug\function.crf --depend ./.rtt-studio/debug\function.d)
+I (../Core/Inc/function.h)(0x647D4BD1)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -359,7 +359,7 @@ I (../Core/Inc/hrtim.h)(0x647A8FDB)
 I (../Core/Inc/PID.h)(0x647A8FDB)
 F (..\Core\Src\IIR_Filter.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\iir_filter.o --omf_browse ./.rtt-studio/debug\iir_filter.crf --depend ./.rtt-studio/debug\iir_filter.d)
 I (../Core/Inc/IIR_FIlter.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -409,8 +409,8 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
 I (../Core/Inc/fmac.h)(0x647A8FDB)
-F (../Core/Src/main.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\main.o --omf_browse ./.rtt-studio/debug\main.crf --depend ./.rtt-studio/debug\main.d)
-I (../Core/Inc/main.h)(0x647A8FDB)
+F (../Core/Src/main.c)(0x64901209)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\main.o --omf_browse ./.rtt-studio/debug\main.crf --depend ./.rtt-studio/debug\main.d)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -469,14 +469,14 @@ I (../Core/Inc/opamp.h)(0x647A8FDB)
 I (../Core/Inc/spi.h)(0x647A8FDB)
 I (../Core/Inc/tim.h)(0x647A8FDB)
 I (../Core/Inc/gpio.h)(0x647A8FDB)
-I (../Core/Inc/function.h)(0x647A904D)
+I (../Core/Inc/function.h)(0x647D4BD1)
 I (../Core/Inc/IIR_FIlter.h)(0x647A8FDB)
 I (../Core/Inc/SEEKFREE_IPS114_SPI.h)(0x647A8FDB)
 I (../Core/Inc/SEEKFREE_FONT.h)(0x647A8FDB)
 I (../Core/Inc/CAN_receive.h)(0x647A8FDB)
 F (../Core/Src/gpio.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\gpio.o --omf_browse ./.rtt-studio/debug\gpio.crf --depend ./.rtt-studio/debug\gpio.d)
 I (../Core/Inc/gpio.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -526,7 +526,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/adc.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\adc.o --omf_browse ./.rtt-studio/debug\adc.crf --depend ./.rtt-studio/debug\adc.d)
 I (../Core/Inc/adc.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -577,7 +577,7 @@ I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
 F (../Core/Src/dma.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\dma.o --omf_browse ./.rtt-studio/debug\dma.crf --depend ./.rtt-studio/debug\dma.d)
 I (../Core/Inc/dma.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -627,7 +627,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/fdcan.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\fdcan.o --omf_browse ./.rtt-studio/debug\fdcan.crf --depend ./.rtt-studio/debug\fdcan.d)
 I (../Core/Inc/fdcan.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -677,7 +677,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/fmac.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\fmac.o --omf_browse ./.rtt-studio/debug\fmac.crf --depend ./.rtt-studio/debug\fmac.d)
 I (../Core/Inc/fmac.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -727,7 +727,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/hrtim.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\hrtim.o --omf_browse ./.rtt-studio/debug\hrtim.crf --depend ./.rtt-studio/debug\hrtim.d)
 I (../Core/Inc/hrtim.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -778,7 +778,7 @@ I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
 F (../Core/Src/usart.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\usart.o --omf_browse ./.rtt-studio/debug\usart.crf --depend ./.rtt-studio/debug\usart.d)
 I (../Core/Inc/usart.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -828,7 +828,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/opamp.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\opamp.o --omf_browse ./.rtt-studio/debug\opamp.crf --depend ./.rtt-studio/debug\opamp.d)
 I (../Core/Inc/opamp.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -878,7 +878,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/spi.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\spi.o --omf_browse ./.rtt-studio/debug\spi.crf --depend ./.rtt-studio/debug\spi.d)
 I (../Core/Inc/spi.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -928,7 +928,7 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 F (../Core/Src/tim.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\tim.o --omf_browse ./.rtt-studio/debug\tim.crf --depend ./.rtt-studio/debug\tim.d)
 I (../Core/Inc/tim.h)(0x647A8FDB)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -976,8 +976,8 @@ I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E3CC2)
 I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
-F (../Core/Src/stm32g4xx_it.c)(0x647A9E25)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\stm32g4xx_it.o --omf_browse ./.rtt-studio/debug\stm32g4xx_it.crf --depend ./.rtt-studio/debug\stm32g4xx_it.d)
-I (../Core/Inc/main.h)(0x647A8FDB)
+F (../Core/Src/stm32g4xx_it.c)(0x647BF872)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\stm32g4xx_it.o --omf_browse ./.rtt-studio/debug\stm32g4xx_it.crf --depend ./.rtt-studio/debug\stm32g4xx_it.d)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)
@@ -1028,10 +1028,10 @@ I (../Core/Inc/struct_typedef.h)(0x647A8FDB)
 I (../Core/Inc/stm32g4xx_it.h)(0x647A8FDB)
 I (../Core/Inc/tim.h)(0x647A8FDB)
 I (../Core/Inc/power_ctrl.h)(0x647A8FDB)
-I (../Core/Inc/function.h)(0x647A904D)
+I (../Core/Inc/function.h)(0x647D4BD1)
 I (../Core/Inc/CAN_receive.h)(0x647A8FDB)
 F (../Core/Src/stm32g4xx_hal_msp.c)(0x647A8FDB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/DSP -I ../Drivers/CMSIS/DSP/Include-I.\RTE\_Ultra_CAP-ID:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx -D__CC_ARM -D__FPU_PRESENT="1U" -DARM_MATH_CM4-o ./.rtt-studio/debug\stm32g4xx_hal_msp.o --omf_browse ./.rtt-studio/debug\stm32g4xx_hal_msp.crf --depend ./.rtt-studio/debug\stm32g4xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x647A8FDB)
+I (../Core/Inc/main.h)(0x647BF8E3)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x647A8FDC)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x647A8FDB)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x647A8FDC)

@@ -1628,322 +1628,320 @@ D:.
 ©¦              stm32g4xx_ll_usb.c
 ©¦              stm32g4xx_ll_utils.c
 ©¦              
-©À©¤Listings
-©À©¤MDK-ARM
-©¦  ©¦  EventRecorderStub.scvd
-©¦  ©¦  startup_stm32g474xx.lst
-©¦  ©¦  startup_stm32g474xx.s
-©¦  ©¦  Ultra_CAP.uvguix.Sirius
-©¦  ©¦  Ultra_CAP.uvguix.Sirius.bak
-©¦  ©¦  Ultra_CAP.uvoptx
-©¦  ©¦  Ultra_CAP.uvprojx
-©¦  ©¦  
-©¦  ©À©¤.rtt-studio
-©¦  ©¦  ©¦  .cproject
-©¦  ©¦  ©¦  .project
-©¦  ©¦  ©¦  makefile.targets
-©¦  ©¦  ©¦  
-©¦  ©¦  ©À©¤.settings
-©¦  ©¦  ©¦      language.settings.xml
-©¦  ©¦  ©¦      mdkconfig.json
-©¦  ©¦  ©¦      org.eclipse.core.resources.prefs
-©¦  ©¦  ©¦      projcfg.ini
-©¦  ©¦  ©¦      Ultra_CAP.DAPLink.Debug.rttlaunch
-©¦  ©¦  ©¦      Ultra_CAP.JLink.Debug.rttlaunch
-©¦  ©¦  ©¦      Ultra_CAP.Qemu.Debug.rttlaunch
-©¦  ©¦  ©¦      Ultra_CAP.STLink.Debug.rttlaunch
-©¦  ©¦  ©¦      
-©¦  ©¦  ©¸©¤Debug
-©¦  ©¦      ©¦  adc.crf
-©¦  ©¦      ©¦  adc.d
-©¦  ©¦      ©¦  adc.o
-©¦  ©¦      ©¦  can_receive.crf
-©¦  ©¦      ©¦  can_receive.d
-©¦  ©¦      ©¦  can_receive.o
-©¦  ©¦      ©¦  dma.crf
-©¦  ©¦      ©¦  dma.d
-©¦  ©¦      ©¦  dma.o
-©¦  ©¦      ©¦  ExtDll.iex
-©¦  ©¦      ©¦  fdcan.crf
-©¦  ©¦      ©¦  fdcan.d
-©¦  ©¦      ©¦  fdcan.o
-©¦  ©¦      ©¦  filter.crf
-©¦  ©¦      ©¦  filter.d
-©¦  ©¦      ©¦  filter.o
-©¦  ©¦      ©¦  fmac.crf
-©¦  ©¦      ©¦  fmac.d
-©¦  ©¦      ©¦  fmac.o
-©¦  ©¦      ©¦  function.crf
-©¦  ©¦      ©¦  function.d
-©¦  ©¦      ©¦  function.o
-©¦  ©¦      ©¦  gpio.crf
-©¦  ©¦      ©¦  gpio.d
-©¦  ©¦      ©¦  gpio.o
-©¦  ©¦      ©¦  hrtim.crf
-©¦  ©¦      ©¦  hrtim.d
-©¦  ©¦      ©¦  hrtim.o
-©¦  ©¦      ©¦  iir_filter.crf
-©¦  ©¦      ©¦  iir_filter.d
-©¦  ©¦      ©¦  iir_filter.o
-©¦  ©¦      ©¦  main.crf
-©¦  ©¦      ©¦  main.d
-©¦  ©¦      ©¦  main.o
-©¦  ©¦      ©¦  makefile
-©¦  ©¦      ©¦  opamp.crf
-©¦  ©¦      ©¦  opamp.d
-©¦  ©¦      ©¦  opamp.o
-©¦  ©¦      ©¦  pid.crf
-©¦  ©¦      ©¦  pid.d
-©¦  ©¦      ©¦  pid.o
-©¦  ©¦      ©¦  power_ctrl.crf
-©¦  ©¦      ©¦  power_ctrl.d
-©¦  ©¦      ©¦  power_ctrl.o
-©¦  ©¦      ©¦  rtthread.axf
-©¦  ©¦      ©¦  rtthread.build_log.htm
-©¦  ©¦      ©¦  rtthread.hex
-©¦  ©¦      ©¦  rtthread.htm
-©¦  ©¦      ©¦  rtthread.lnp
-©¦  ©¦      ©¦  rtthread.map
-©¦  ©¦      ©¦  rtthread.sct
-©¦  ©¦      ©¦  seekfree_font.crf
-©¦  ©¦      ©¦  seekfree_font.d
-©¦  ©¦      ©¦  seekfree_font.o
-©¦  ©¦      ©¦  seekfree_ips114_spi.crf
-©¦  ©¦      ©¦  seekfree_ips114_spi.d
-©¦  ©¦      ©¦  seekfree_ips114_spi.o
-©¦  ©¦      ©¦  sources.mk
-©¦  ©¦      ©¦  spi.crf
-©¦  ©¦      ©¦  spi.d
-©¦  ©¦      ©¦  spi.o
-©¦  ©¦      ©¦  startup_stm32g474xx.d
-©¦  ©¦      ©¦  startup_stm32g474xx.o
-©¦  ©¦      ©¦  stm32g4xx_hal.crf
-©¦  ©¦      ©¦  stm32g4xx_hal.d
-©¦  ©¦      ©¦  stm32g4xx_hal.o
-©¦  ©¦      ©¦  stm32g4xx_hal_adc.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_adc.d
-©¦  ©¦      ©¦  stm32g4xx_hal_adc.o
-©¦  ©¦      ©¦  stm32g4xx_hal_adc_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_adc_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_adc_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_cortex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_cortex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_cortex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_dma.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_dma.d
-©¦  ©¦      ©¦  stm32g4xx_hal_dma.o
-©¦  ©¦      ©¦  stm32g4xx_hal_dma_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_dma_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_dma_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_exti.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_exti.d
-©¦  ©¦      ©¦  stm32g4xx_hal_exti.o
-©¦  ©¦      ©¦  stm32g4xx_hal_fdcan.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_fdcan.d
-©¦  ©¦      ©¦  stm32g4xx_hal_fdcan.o
-©¦  ©¦      ©¦  stm32g4xx_hal_flash.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_flash.d
-©¦  ©¦      ©¦  stm32g4xx_hal_flash.o
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.d
-©¦  ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.o
-©¦  ©¦      ©¦  stm32g4xx_hal_fmac.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_fmac.d
-©¦  ©¦      ©¦  stm32g4xx_hal_fmac.o
-©¦  ©¦      ©¦  stm32g4xx_hal_gpio.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_gpio.d
-©¦  ©¦      ©¦  stm32g4xx_hal_gpio.o
-©¦  ©¦      ©¦  stm32g4xx_hal_hrtim.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_hrtim.d
-©¦  ©¦      ©¦  stm32g4xx_hal_hrtim.o
-©¦  ©¦      ©¦  stm32g4xx_hal_msp.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_msp.d
-©¦  ©¦      ©¦  stm32g4xx_hal_msp.o
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp.d
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp.o
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_opamp_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr.d
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr.o
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_pwr_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc.d
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc.o
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_rcc_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_spi.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_spi.d
-©¦  ©¦      ©¦  stm32g4xx_hal_spi.o
-©¦  ©¦      ©¦  stm32g4xx_hal_spi_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_spi_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_spi_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_tim.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_tim.d
-©¦  ©¦      ©¦  stm32g4xx_hal_tim.o
-©¦  ©¦      ©¦  stm32g4xx_hal_tim_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_tim_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_tim_ex.o
-©¦  ©¦      ©¦  stm32g4xx_hal_uart.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_uart.d
-©¦  ©¦      ©¦  stm32g4xx_hal_uart.o
-©¦  ©¦      ©¦  stm32g4xx_hal_uart_ex.crf
-©¦  ©¦      ©¦  stm32g4xx_hal_uart_ex.d
-©¦  ©¦      ©¦  stm32g4xx_hal_uart_ex.o
-©¦  ©¦      ©¦  stm32g4xx_it.crf
-©¦  ©¦      ©¦  stm32g4xx_it.d
-©¦  ©¦      ©¦  stm32g4xx_it.o
-©¦  ©¦      ©¦  stm32g4xx_ll_adc.crf
-©¦  ©¦      ©¦  stm32g4xx_ll_adc.d
-©¦  ©¦      ©¦  stm32g4xx_ll_adc.o
-©¦  ©¦      ©¦  system_stm32g4xx.crf
-©¦  ©¦      ©¦  system_stm32g4xx.d
-©¦  ©¦      ©¦  system_stm32g4xx.o
-©¦  ©¦      ©¦  tim.crf
-©¦  ©¦      ©¦  tim.d
-©¦  ©¦      ©¦  tim.o
-©¦  ©¦      ©¦  Ultra_CAP_Ultra_CAP.dep
-©¦  ©¦      ©¦  usart.crf
-©¦  ©¦      ©¦  usart.d
-©¦  ©¦      ©¦  usart.o
-©¦  ©¦      ©¦  uv4.log
-©¦  ©¦      ©¦  
-©¦  ©¦      ©À©¤Application
-©¦  ©¦      ©¦  ©¸©¤User
-©¦  ©¦      ©¦      ©¸©¤Core
-©¦  ©¦      ©¦              subdir.mk
-©¦  ©¦      ©¦              
-©¦  ©¦      ©¸©¤Drivers
-©¦  ©¦          ©À©¤CMSIS
-©¦  ©¦          ©¦      subdir.mk
-©¦  ©¦          ©¦      
-©¦  ©¦          ©¸©¤STM32G4xx_HAL_Driver
-©¦  ©¦                  subdir.mk
-©¦  ©¦                  
-©¦  ©À©¤DebugConfig
-©¦  ©¦      Ultra_CAP_STM32G474RETx.dbgconf
-©¦  ©¦      
-©¦  ©À©¤RTE
-©¦  ©¦  ©¸©¤_Ultra_CAP
-©¦  ©¦          RTE_Components.h
-©¦  ©¦          
-©¦  ©¸©¤Ultra_CAP
-©¦          main.crf
-©¦          main.d
-©¦          main.o
-©¦          seekfree_font.crf
-©¦          seekfree_font.d
-©¦          seekfree_font.o
-©¦          seekfree_ips114_spi.crf
-©¦          seekfree_ips114_spi.d
-©¦          startup_stm32g474xx.d
-©¦          startup_stm32g474xx.o
-©¦          stm32g4xx_hal.crf
-©¦          stm32g4xx_hal.d
-©¦          stm32g4xx_hal.o
-©¦          stm32g4xx_hal_adc.crf
-©¦          stm32g4xx_hal_adc.d
-©¦          stm32g4xx_hal_adc.o
-©¦          stm32g4xx_hal_adc_ex.crf
-©¦          stm32g4xx_hal_adc_ex.d
-©¦          stm32g4xx_hal_adc_ex.o
-©¦          stm32g4xx_hal_cortex.crf
-©¦          stm32g4xx_hal_cortex.d
-©¦          stm32g4xx_hal_cortex.o
-©¦          stm32g4xx_hal_dma.crf
-©¦          stm32g4xx_hal_dma.d
-©¦          stm32g4xx_hal_dma.o
-©¦          stm32g4xx_hal_dma_ex.crf
-©¦          stm32g4xx_hal_dma_ex.d
-©¦          stm32g4xx_hal_dma_ex.o
-©¦          stm32g4xx_hal_exti.crf
-©¦          stm32g4xx_hal_exti.d
-©¦          stm32g4xx_hal_exti.o
-©¦          stm32g4xx_hal_fdcan.crf
-©¦          stm32g4xx_hal_fdcan.d
-©¦          stm32g4xx_hal_fdcan.o
-©¦          stm32g4xx_hal_flash.crf
-©¦          stm32g4xx_hal_flash.d
-©¦          stm32g4xx_hal_flash.o
-©¦          stm32g4xx_hal_flash_ex.crf
-©¦          stm32g4xx_hal_flash_ex.d
-©¦          stm32g4xx_hal_flash_ex.o
-©¦          stm32g4xx_hal_flash_ramfunc.crf
-©¦          stm32g4xx_hal_flash_ramfunc.d
-©¦          stm32g4xx_hal_flash_ramfunc.o
-©¦          stm32g4xx_hal_gpio.crf
-©¦          stm32g4xx_hal_gpio.d
-©¦          stm32g4xx_hal_gpio.o
-©¦          stm32g4xx_hal_hrtim.crf
-©¦          stm32g4xx_hal_hrtim.d
-©¦          stm32g4xx_hal_hrtim.o
-©¦          stm32g4xx_hal_msp.crf
-©¦          stm32g4xx_hal_msp.d
-©¦          stm32g4xx_hal_msp.o
-©¦          stm32g4xx_hal_opamp.crf
-©¦          stm32g4xx_hal_opamp.d
-©¦          stm32g4xx_hal_opamp.o
-©¦          stm32g4xx_hal_opamp_ex.crf
-©¦          stm32g4xx_hal_opamp_ex.d
-©¦          stm32g4xx_hal_opamp_ex.o
-©¦          stm32g4xx_hal_pcd.crf
-©¦          stm32g4xx_hal_pcd.d
-©¦          stm32g4xx_hal_pcd.o
-©¦          stm32g4xx_hal_pcd_ex.crf
-©¦          stm32g4xx_hal_pcd_ex.d
-©¦          stm32g4xx_hal_pcd_ex.o
-©¦          stm32g4xx_hal_pwr.crf
-©¦          stm32g4xx_hal_pwr.d
-©¦          stm32g4xx_hal_pwr.o
-©¦          stm32g4xx_hal_pwr_ex.crf
-©¦          stm32g4xx_hal_pwr_ex.d
-©¦          stm32g4xx_hal_pwr_ex.o
-©¦          stm32g4xx_hal_rcc.crf
-©¦          stm32g4xx_hal_rcc.d
-©¦          stm32g4xx_hal_rcc.o
-©¦          stm32g4xx_hal_rcc_ex.crf
-©¦          stm32g4xx_hal_rcc_ex.d
-©¦          stm32g4xx_hal_rcc_ex.o
-©¦          stm32g4xx_hal_spi.crf
-©¦          stm32g4xx_hal_spi.d
-©¦          stm32g4xx_hal_spi.o
-©¦          stm32g4xx_hal_spi_ex.crf
-©¦          stm32g4xx_hal_spi_ex.d
-©¦          stm32g4xx_hal_spi_ex.o
-©¦          stm32g4xx_hal_tim.crf
-©¦          stm32g4xx_hal_tim.d
-©¦          stm32g4xx_hal_tim.o
-©¦          stm32g4xx_hal_tim_ex.crf
-©¦          stm32g4xx_hal_tim_ex.d
-©¦          stm32g4xx_hal_tim_ex.o
-©¦          stm32g4xx_hal_uart.crf
-©¦          stm32g4xx_hal_uart.d
-©¦          stm32g4xx_hal_uart.o
-©¦          stm32g4xx_hal_uart_ex.crf
-©¦          stm32g4xx_hal_uart_ex.d
-©¦          stm32g4xx_hal_uart_ex.o
-©¦          stm32g4xx_it.crf
-©¦          stm32g4xx_it.d
-©¦          stm32g4xx_it.o
-©¦          stm32g4xx_ll_adc.crf
-©¦          stm32g4xx_ll_adc.d
-©¦          stm32g4xx_ll_adc.o
-©¦          stm32g4xx_ll_usb.crf
-©¦          stm32g4xx_ll_usb.d
-©¦          stm32g4xx_ll_usb.o
-©¦          system_stm32g4xx.crf
-©¦          system_stm32g4xx.d
-©¦          system_stm32g4xx.o
-©¦          Ultra_CAP.build_log.htm
-©¦          Ultra_CAP.sct
-©¦          Ultra_CAP_Ultra_CAP.dep
-©¦          
-©¸©¤Objects
+©¸©¤MDK-ARM
+    ©¦  EventRecorderStub.scvd
+    ©¦  startup_stm32g474xx.lst
+    ©¦  startup_stm32g474xx.s
+    ©¦  Ultra_CAP.uvguix.Sirius
+    ©¦  Ultra_CAP.uvguix.Sirius.bak
+    ©¦  Ultra_CAP.uvoptx
+    ©¦  Ultra_CAP.uvprojx
+    ©¦  
+    ©À©¤.rtt-studio
+    ©¦  ©¦  .cproject
+    ©¦  ©¦  .project
+    ©¦  ©¦  makefile.targets
+    ©¦  ©¦  
+    ©¦  ©À©¤.settings
+    ©¦  ©¦      language.settings.xml
+    ©¦  ©¦      mdkconfig.json
+    ©¦  ©¦      org.eclipse.core.resources.prefs
+    ©¦  ©¦      projcfg.ini
+    ©¦  ©¦      Ultra_CAP.DAPLink.Debug.rttlaunch
+    ©¦  ©¦      Ultra_CAP.JLink.Debug.rttlaunch
+    ©¦  ©¦      Ultra_CAP.Qemu.Debug.rttlaunch
+    ©¦  ©¦      Ultra_CAP.STLink.Debug.rttlaunch
+    ©¦  ©¦      
+    ©¦  ©¸©¤Debug
+    ©¦      ©¦  adc.crf
+    ©¦      ©¦  adc.d
+    ©¦      ©¦  adc.o
+    ©¦      ©¦  can_receive.crf
+    ©¦      ©¦  can_receive.d
+    ©¦      ©¦  can_receive.o
+    ©¦      ©¦  dma.crf
+    ©¦      ©¦  dma.d
+    ©¦      ©¦  dma.o
+    ©¦      ©¦  fdcan.crf
+    ©¦      ©¦  fdcan.d
+    ©¦      ©¦  fdcan.o
+    ©¦      ©¦  filter.crf
+    ©¦      ©¦  filter.d
+    ©¦      ©¦  filter.o
+    ©¦      ©¦  fmac.crf
+    ©¦      ©¦  fmac.d
+    ©¦      ©¦  fmac.o
+    ©¦      ©¦  function.crf
+    ©¦      ©¦  function.d
+    ©¦      ©¦  function.o
+    ©¦      ©¦  gpio.crf
+    ©¦      ©¦  gpio.d
+    ©¦      ©¦  gpio.o
+    ©¦      ©¦  hrtim.crf
+    ©¦      ©¦  hrtim.d
+    ©¦      ©¦  hrtim.o
+    ©¦      ©¦  iir_filter.crf
+    ©¦      ©¦  iir_filter.d
+    ©¦      ©¦  iir_filter.o
+    ©¦      ©¦  main.crf
+    ©¦      ©¦  main.d
+    ©¦      ©¦  main.o
+    ©¦      ©¦  makefile
+    ©¦      ©¦  objects.mk
+    ©¦      ©¦  opamp.crf
+    ©¦      ©¦  opamp.d
+    ©¦      ©¦  opamp.o
+    ©¦      ©¦  pid.crf
+    ©¦      ©¦  pid.d
+    ©¦      ©¦  pid.o
+    ©¦      ©¦  power_ctrl.crf
+    ©¦      ©¦  power_ctrl.d
+    ©¦      ©¦  power_ctrl.o
+    ©¦      ©¦  rtthread.axf
+    ©¦      ©¦  rtthread.build_log.htm
+    ©¦      ©¦  rtthread.hex
+    ©¦      ©¦  rtthread.htm
+    ©¦      ©¦  rtthread.lnp
+    ©¦      ©¦  rtthread.map
+    ©¦      ©¦  rtthread.sct
+    ©¦      ©¦  seekfree_font.crf
+    ©¦      ©¦  seekfree_font.d
+    ©¦      ©¦  seekfree_font.o
+    ©¦      ©¦  seekfree_ips114_spi.crf
+    ©¦      ©¦  seekfree_ips114_spi.d
+    ©¦      ©¦  seekfree_ips114_spi.o
+    ©¦      ©¦  sources.mk
+    ©¦      ©¦  spi.crf
+    ©¦      ©¦  spi.d
+    ©¦      ©¦  spi.o
+    ©¦      ©¦  startup_stm32g474xx.d
+    ©¦      ©¦  startup_stm32g474xx.o
+    ©¦      ©¦  stm32g4xx_hal.crf
+    ©¦      ©¦  stm32g4xx_hal.d
+    ©¦      ©¦  stm32g4xx_hal.o
+    ©¦      ©¦  stm32g4xx_hal_adc.crf
+    ©¦      ©¦  stm32g4xx_hal_adc.d
+    ©¦      ©¦  stm32g4xx_hal_adc.o
+    ©¦      ©¦  stm32g4xx_hal_adc_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_adc_ex.d
+    ©¦      ©¦  stm32g4xx_hal_adc_ex.o
+    ©¦      ©¦  stm32g4xx_hal_cortex.crf
+    ©¦      ©¦  stm32g4xx_hal_cortex.d
+    ©¦      ©¦  stm32g4xx_hal_cortex.o
+    ©¦      ©¦  stm32g4xx_hal_dma.crf
+    ©¦      ©¦  stm32g4xx_hal_dma.d
+    ©¦      ©¦  stm32g4xx_hal_dma.o
+    ©¦      ©¦  stm32g4xx_hal_dma_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_dma_ex.d
+    ©¦      ©¦  stm32g4xx_hal_dma_ex.o
+    ©¦      ©¦  stm32g4xx_hal_exti.crf
+    ©¦      ©¦  stm32g4xx_hal_exti.d
+    ©¦      ©¦  stm32g4xx_hal_exti.o
+    ©¦      ©¦  stm32g4xx_hal_fdcan.crf
+    ©¦      ©¦  stm32g4xx_hal_fdcan.d
+    ©¦      ©¦  stm32g4xx_hal_fdcan.o
+    ©¦      ©¦  stm32g4xx_hal_flash.crf
+    ©¦      ©¦  stm32g4xx_hal_flash.d
+    ©¦      ©¦  stm32g4xx_hal_flash.o
+    ©¦      ©¦  stm32g4xx_hal_flash_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_flash_ex.d
+    ©¦      ©¦  stm32g4xx_hal_flash_ex.o
+    ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.crf
+    ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.d
+    ©¦      ©¦  stm32g4xx_hal_flash_ramfunc.o
+    ©¦      ©¦  stm32g4xx_hal_fmac.crf
+    ©¦      ©¦  stm32g4xx_hal_fmac.d
+    ©¦      ©¦  stm32g4xx_hal_fmac.o
+    ©¦      ©¦  stm32g4xx_hal_gpio.crf
+    ©¦      ©¦  stm32g4xx_hal_gpio.d
+    ©¦      ©¦  stm32g4xx_hal_gpio.o
+    ©¦      ©¦  stm32g4xx_hal_hrtim.crf
+    ©¦      ©¦  stm32g4xx_hal_hrtim.d
+    ©¦      ©¦  stm32g4xx_hal_hrtim.o
+    ©¦      ©¦  stm32g4xx_hal_msp.crf
+    ©¦      ©¦  stm32g4xx_hal_msp.d
+    ©¦      ©¦  stm32g4xx_hal_msp.o
+    ©¦      ©¦  stm32g4xx_hal_opamp.crf
+    ©¦      ©¦  stm32g4xx_hal_opamp.d
+    ©¦      ©¦  stm32g4xx_hal_opamp.o
+    ©¦      ©¦  stm32g4xx_hal_opamp_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_opamp_ex.d
+    ©¦      ©¦  stm32g4xx_hal_opamp_ex.o
+    ©¦      ©¦  stm32g4xx_hal_pwr.crf
+    ©¦      ©¦  stm32g4xx_hal_pwr.d
+    ©¦      ©¦  stm32g4xx_hal_pwr.o
+    ©¦      ©¦  stm32g4xx_hal_pwr_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_pwr_ex.d
+    ©¦      ©¦  stm32g4xx_hal_pwr_ex.o
+    ©¦      ©¦  stm32g4xx_hal_rcc.crf
+    ©¦      ©¦  stm32g4xx_hal_rcc.d
+    ©¦      ©¦  stm32g4xx_hal_rcc.o
+    ©¦      ©¦  stm32g4xx_hal_rcc_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_rcc_ex.d
+    ©¦      ©¦  stm32g4xx_hal_rcc_ex.o
+    ©¦      ©¦  stm32g4xx_hal_spi.crf
+    ©¦      ©¦  stm32g4xx_hal_spi.d
+    ©¦      ©¦  stm32g4xx_hal_spi.o
+    ©¦      ©¦  stm32g4xx_hal_spi_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_spi_ex.d
+    ©¦      ©¦  stm32g4xx_hal_spi_ex.o
+    ©¦      ©¦  stm32g4xx_hal_tim.crf
+    ©¦      ©¦  stm32g4xx_hal_tim.d
+    ©¦      ©¦  stm32g4xx_hal_tim.o
+    ©¦      ©¦  stm32g4xx_hal_tim_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_tim_ex.d
+    ©¦      ©¦  stm32g4xx_hal_tim_ex.o
+    ©¦      ©¦  stm32g4xx_hal_uart.crf
+    ©¦      ©¦  stm32g4xx_hal_uart.d
+    ©¦      ©¦  stm32g4xx_hal_uart.o
+    ©¦      ©¦  stm32g4xx_hal_uart_ex.crf
+    ©¦      ©¦  stm32g4xx_hal_uart_ex.d
+    ©¦      ©¦  stm32g4xx_hal_uart_ex.o
+    ©¦      ©¦  stm32g4xx_it.crf
+    ©¦      ©¦  stm32g4xx_it.d
+    ©¦      ©¦  stm32g4xx_it.o
+    ©¦      ©¦  stm32g4xx_ll_adc.crf
+    ©¦      ©¦  stm32g4xx_ll_adc.d
+    ©¦      ©¦  stm32g4xx_ll_adc.o
+    ©¦      ©¦  system_stm32g4xx.crf
+    ©¦      ©¦  system_stm32g4xx.d
+    ©¦      ©¦  system_stm32g4xx.o
+    ©¦      ©¦  tim.crf
+    ©¦      ©¦  tim.d
+    ©¦      ©¦  tim.o
+    ©¦      ©¦  Ultra_CAP_Ultra_CAP.dep
+    ©¦      ©¦  usart.crf
+    ©¦      ©¦  usart.d
+    ©¦      ©¦  usart.o
+    ©¦      ©¦  uv4.log
+    ©¦      ©¦  
+    ©¦      ©À©¤Application
+    ©¦      ©¦  ©¸©¤User
+    ©¦      ©¦      ©¸©¤Core
+    ©¦      ©¦              subdir.mk
+    ©¦      ©¦              
+    ©¦      ©¸©¤Drivers
+    ©¦          ©À©¤CMSIS
+    ©¦          ©¦      subdir.mk
+    ©¦          ©¦      
+    ©¦          ©¸©¤STM32G4xx_HAL_Driver
+    ©¦                  subdir.mk
+    ©¦                  
+    ©À©¤DebugConfig
+    ©¦      Ultra_CAP_STM32G474RETx.dbgconf
+    ©¦      
+    ©À©¤RTE
+    ©¦  ©¸©¤_Ultra_CAP
+    ©¦          RTE_Components.h
+    ©¦          
+    ©¸©¤Ultra_CAP
+            main.crf
+            main.d
+            main.o
+            seekfree_font.crf
+            seekfree_font.d
+            seekfree_font.o
+            seekfree_ips114_spi.crf
+            seekfree_ips114_spi.d
+            startup_stm32g474xx.d
+            startup_stm32g474xx.o
+            stm32g4xx_hal.crf
+            stm32g4xx_hal.d
+            stm32g4xx_hal.o
+            stm32g4xx_hal_adc.crf
+            stm32g4xx_hal_adc.d
+            stm32g4xx_hal_adc.o
+            stm32g4xx_hal_adc_ex.crf
+            stm32g4xx_hal_adc_ex.d
+            stm32g4xx_hal_adc_ex.o
+            stm32g4xx_hal_cortex.crf
+            stm32g4xx_hal_cortex.d
+            stm32g4xx_hal_cortex.o
+            stm32g4xx_hal_dma.crf
+            stm32g4xx_hal_dma.d
+            stm32g4xx_hal_dma.o
+            stm32g4xx_hal_dma_ex.crf
+            stm32g4xx_hal_dma_ex.d
+            stm32g4xx_hal_dma_ex.o
+            stm32g4xx_hal_exti.crf
+            stm32g4xx_hal_exti.d
+            stm32g4xx_hal_exti.o
+            stm32g4xx_hal_fdcan.crf
+            stm32g4xx_hal_fdcan.d
+            stm32g4xx_hal_fdcan.o
+            stm32g4xx_hal_flash.crf
+            stm32g4xx_hal_flash.d
+            stm32g4xx_hal_flash.o
+            stm32g4xx_hal_flash_ex.crf
+            stm32g4xx_hal_flash_ex.d
+            stm32g4xx_hal_flash_ex.o
+            stm32g4xx_hal_flash_ramfunc.crf
+            stm32g4xx_hal_flash_ramfunc.d
+            stm32g4xx_hal_flash_ramfunc.o
+            stm32g4xx_hal_gpio.crf
+            stm32g4xx_hal_gpio.d
+            stm32g4xx_hal_gpio.o
+            stm32g4xx_hal_hrtim.crf
+            stm32g4xx_hal_hrtim.d
+            stm32g4xx_hal_hrtim.o
+            stm32g4xx_hal_msp.crf
+            stm32g4xx_hal_msp.d
+            stm32g4xx_hal_msp.o
+            stm32g4xx_hal_opamp.crf
+            stm32g4xx_hal_opamp.d
+            stm32g4xx_hal_opamp.o
+            stm32g4xx_hal_opamp_ex.crf
+            stm32g4xx_hal_opamp_ex.d
+            stm32g4xx_hal_opamp_ex.o
+            stm32g4xx_hal_pcd.crf
+            stm32g4xx_hal_pcd.d
+            stm32g4xx_hal_pcd.o
+            stm32g4xx_hal_pcd_ex.crf
+            stm32g4xx_hal_pcd_ex.d
+            stm32g4xx_hal_pcd_ex.o
+            stm32g4xx_hal_pwr.crf
+            stm32g4xx_hal_pwr.d
+            stm32g4xx_hal_pwr.o
+            stm32g4xx_hal_pwr_ex.crf
+            stm32g4xx_hal_pwr_ex.d
+            stm32g4xx_hal_pwr_ex.o
+            stm32g4xx_hal_rcc.crf
+            stm32g4xx_hal_rcc.d
+            stm32g4xx_hal_rcc.o
+            stm32g4xx_hal_rcc_ex.crf
+            stm32g4xx_hal_rcc_ex.d
+            stm32g4xx_hal_rcc_ex.o
+            stm32g4xx_hal_spi.crf
+            stm32g4xx_hal_spi.d
+            stm32g4xx_hal_spi.o
+            stm32g4xx_hal_spi_ex.crf
+            stm32g4xx_hal_spi_ex.d
+            stm32g4xx_hal_spi_ex.o
+            stm32g4xx_hal_tim.crf
+            stm32g4xx_hal_tim.d
+            stm32g4xx_hal_tim.o
+            stm32g4xx_hal_tim_ex.crf
+            stm32g4xx_hal_tim_ex.d
+            stm32g4xx_hal_tim_ex.o
+            stm32g4xx_hal_uart.crf
+            stm32g4xx_hal_uart.d
+            stm32g4xx_hal_uart.o
+            stm32g4xx_hal_uart_ex.crf
+            stm32g4xx_hal_uart_ex.d
+            stm32g4xx_hal_uart_ex.o
+            stm32g4xx_it.crf
+            stm32g4xx_it.d
+            stm32g4xx_it.o
+            stm32g4xx_ll_adc.crf
+            stm32g4xx_ll_adc.d
+            stm32g4xx_ll_adc.o
+            stm32g4xx_ll_usb.crf
+            stm32g4xx_ll_usb.d
+            stm32g4xx_ll_usb.o
+            system_stm32g4xx.crf
+            system_stm32g4xx.d
+            system_stm32g4xx.o
+            Ultra_CAP.build_log.htm
+            Ultra_CAP.sct
+            Ultra_CAP_Ultra_CAP.dep
+            

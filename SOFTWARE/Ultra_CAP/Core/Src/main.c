@@ -178,13 +178,17 @@ int main(void)
 //        printf("full_bridge_in=%f\r\n", full_bridge_in.I);
         printf("\r\n");
 
-//        CAN_cmd_chassis(5000,5000,5000,5000);
-
 //        if (IPSShowCnt > 60) //300m flash once ips
 //        {
 //            IPSShowCnt = 0;
 //            ips_usrdisplay();
 //        }
+
+        if (CANSendCnt > 19) //100m send once
+        {
+            CANSendCnt = 0;
+            CAN_cmd_powerctrl();
+        }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

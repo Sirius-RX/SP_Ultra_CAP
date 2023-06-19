@@ -18,4 +18,3 @@ LR_IROM1 0x08000000 0x00080000  {    ; load region size_region
   .ANY (ccmram)
   }
 }
-

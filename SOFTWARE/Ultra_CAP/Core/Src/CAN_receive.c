@@ -53,7 +53,7 @@ static uint8_t powerctrl_can_send_data[8];
 void CAN_cmd_powerctrl(void)
 {
     int16_t capv;
-    
+
     powerctrl_tx_message.Identifier = Chassis_C_Board_ID;
     powerctrl_tx_message.IdType = FDCAN_STANDARD_ID;
     powerctrl_tx_message.TxFrameType = FDCAN_DATA_FRAME;
@@ -63,13 +63,11 @@ void CAN_cmd_powerctrl(void)
     powerctrl_tx_message.FDFormat = FDCAN_CLASSIC_CAN;
     powerctrl_tx_message.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
     powerctrl_tx_message.MessageMarker = 0;
-	
-		capv = (int16_t)(cap.V * 100);
-		powerctrl_can_send_data[0] = capv >> 8;
-    powerctrl_can_send_data[1] = capv & 0x00FF;
-		powerctrl_can_send_data[2] = DF.ErrFlag >> 8;
-    powerctrl_can_send_data[3] = DF.ErrFlag & 0x00FF;
-		powerctrl_can_send_data[4] = 0;
+
+    capv = (int16_t) (cap.V * 100);
+    memcpy(powerctrl_can_send_data,         &capv,          sizeof(uint8_t) * 2);
+    memcpy((powerctrl_can_send_data + 2),   &DF.ErrFlag,    sizeof(uint8_t) * 2);
+    powerctrl_can_send_data[4] = 0;
     powerctrl_can_send_data[5] = 0;
     powerctrl_can_send_data[6] = 0;
     powerctrl_can_send_data[7] = 0;
@@ -92,30 +90,27 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
     FDCAN_RxHeaderTypeDef rx_header;
     uint8_t rx_data[8];
     uint16_t power_ref;
-		uint16_t power_buffer;
+    uint16_t power_buffer;
 
     HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &rx_header, rx_data);
 
-		switch (rx_header.Identifier)
+    switch (rx_header.Identifier)
     {
     case 0x779:
-		{
-				memcpy(&power_ref, rx_data, sizeof(uint8_t) * 2);
-				memcpy(&power_buffer, (rx_data + 2), sizeof(uint8_t) * 2);
-			
-//        if (power_buffer > 100)
-//            CtrValue.Poref = 250.0f;  //飞坡状态  处于最大功率
-//        else if (power_buffer < 60 && power_buffer > 30)
-//            CtrValue.Poref = (fp32)(power_ref + 5);  //消耗缓冲能量
-//        else
-//            CtrValue.Poref = (fp32)(power_ref - 1);
+    {
+        memcpy(&power_ref,      rx_data,        sizeof(uint8_t) * 2);
+        memcpy(&power_buffer,   (rx_data + 2),  sizeof(uint8_t) * 2);
 
-        CtrValue.Poref = (fp32)(power_ref - 1);
-			
-//        CAN_cmd_powerctrl();
+        if (power_buffer > 100)
+            CtrValue.Poref = 200.0f;  //飞坡状态  处于最大功率
+        else if (power_buffer <= 100 && power_buffer > 30)
+            CtrValue.Poref = (fp32)(power_ref + 1);  //消耗缓冲能量
+        else
+            CtrValue.Poref = (fp32)power_ref - 0.1f;
+
 //        printf("power_ref=%d\r\n", power_ref);
         break;
-		}
+    }
     default:
         break;
     }
